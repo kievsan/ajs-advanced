@@ -4,6 +4,9 @@
   "description": "Objects (adv JS)",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint . --fix",
+    "srcfix": "eslint ./src/** --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,19 @@
   "bugs": {
     "url": "https://github.com/kievsan/ajs-advanced/issues"
   },
-  "homepage": "https://github.com/kievsan/ajs-advanced#readme"
+  "homepage": "https://github.com/kievsan/ajs-advanced#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "core-js": "^3.29.1"
+  }
 }
