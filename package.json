@@ -1,0 +1,22 @@
+{
+  "name": "ajs-advanced",
+  "version": "1.0.0",
+  "description": "Objects (adv JS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kievsan/ajs-advanced.git"
+  },
+  "keywords": [
+    "obj"
+  ],
+  "author": "kievsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kievsan/ajs-advanced/issues"
+  },
+  "homepage": "https://github.com/kievsan/ajs-advanced#readme"
+}
