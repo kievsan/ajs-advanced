@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "jest": true
     },
     "extends": "airbnb-base",
     "overrides": [
@@ -20,6 +21,8 @@
             "error",
             "ignorePackages"
         ],
-        "linebreak-style": ["error", "windows"]
+        "linebreak-style": ["error", "windows"],
+        "allowForLoopAfterthoughts": 0   // допускает унарные операторы ++-- в for
+            // 0 = off, 1 = warn, 2 = error
    }
 }
