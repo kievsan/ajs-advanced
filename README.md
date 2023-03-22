@@ -12,7 +12,7 @@
 
 В личном кабинете на сайте [netology.ru](http://netology.ru/) в поле комментария к домашней работе вставьте ссылки на ваш GitHub-проекты.
 
-**[ссылка на GitHub-проект](https://github.com/kievsan/ajs-advanced)**
+**[ссылка на задание](https://github.com/netology-code/ajs-homeworks/tree/ajs8/advanced)**
 
 ---
 
